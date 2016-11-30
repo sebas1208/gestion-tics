@@ -1,3 +1,2 @@
 cd $OPENSHIFT_REPO_DIR/diy/glassfish4/bin
-./asadmin deploy $OPENSHIFT_REPO_DIR/Web/target/web-1.0.war
-./asadmin deploy $OPENSHIFT_REPO_DIR/WebRS/target/webrs-1.0.war
+
