@@ -6,6 +6,7 @@
     <property name="keepgenerated" value="true">
     </property>
   </jsp-config>
+  <context-root>/web</context-root>
   <security-role-mapping>
     <role-name>admin</role-name>
     <group-name>admin</group-name>

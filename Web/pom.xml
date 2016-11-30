@@ -8,11 +8,11 @@
     </parent>
 
     <groupId>epn.edu.ec</groupId>
-    <artifactId>Web</artifactId>
+    <artifactId>web</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
 
-    <name>Web</name>
+    <name>web</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
