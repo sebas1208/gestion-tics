@@ -1,6 +1,7 @@
 cd $OPENSHIFT_REPO_DIR/diy/glassfish4/glassfish/domains/domain1/config/
 sed 's/'OPENSHIFT_DIY_IP'/'$OPENSHIFT_DIY_IP'/g' domain.xml > domain.xml.2
 mv domain.xml.2 domain.xml
+mkdir $OPENSHIFT_REPO_DIR/diy/glassfish4/glassfish/domains/domain1/autodeploy
 mv $OPENSHIFT_REPO_DIR/Web/target/web-1.0.war $OPENSHIFT_REPO_DIR/diy/glassfish4/glassfish/domains/domain1/autodeploy
 mv $OPENSHIFT_REPO_DIR/WebRS/target/webrs-1.0.war $OPENSHIFT_REPO_DIR/diy/glassfish4/glassfish/domains/domain1/autodeploy
 ../../../bin/asadmin start-domain
